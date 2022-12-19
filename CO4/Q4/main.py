@@ -11,7 +11,7 @@ class Time:
         return h, m, s
 
     def __str__(self):
-        print(self.__hour, ":", self.__minute, ":", self.__second)
+        print("Time =", self.__hour, ":", self.__minute, ":", self.__second)
 
 
 hour1 = int(input("Enter the Time in the order of Hour,minute,second respectively:"))
