@@ -29,8 +29,8 @@ perimeter2 = rect2.Perimeter()
 
 print("Area of first rectangle ", area1)
 print("Area of second rectangle ", area2)
-print("Area of first rectangle ", perimeter1)
-print("Area of second rectangle ", perimeter2)
+print("Perimeter of first rectangle ", perimeter1)
+print("Perimeter second rectangle ", perimeter2)
 
 if rect1.Area() > rect2.Area():
     print("\nFirst Rectangle  have more area with area difference :", rect1.Area() - rect2.Area())

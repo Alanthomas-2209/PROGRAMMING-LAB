@@ -7,7 +7,7 @@ class Time:
     def __add__(self, other):
         s = (self.__second + other.__second) % 60
         m = (self.__minute + other.__minute + int((self.__second + other.__second) / 60)) % 60
-        h = (self.__hour + other.__hour + int((self.__minute + other.__minute) / 60)) % 24
+        h = (self.__hour + other.__hour + int((self.__minute + other.__minute) / 60))
         return h, m, s
 
     def __str__(self):

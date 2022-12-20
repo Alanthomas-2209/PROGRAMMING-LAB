@@ -13,7 +13,7 @@ class Bank:
 
     def withDraw(self):
         amount = int(input("Enter the  amount to withdraw :"))
-        if self.balance < amount:
+        if self.balance < amount or (self.balance - amount) < 1000:
             print("ERROR....!")
         else:
             self.balance -= amount
