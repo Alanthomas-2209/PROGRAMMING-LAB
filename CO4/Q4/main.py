@@ -8,7 +8,8 @@ class Time:
         s = (self.__second + other.__second) % 60
         m = (self.__minute + other.__minute + int((self.__second + other.__second) / 60)) % 60
         h = (self.__hour + other.__hour + int((self.__minute + other.__minute) / 60))
-        return h, m, s
+        #   return h, m, s
+        return "{0} hours: {1} minutes :{2} seconds".format(h, m, s)
 
     def __str__(self):
         print("Time =", self.__hour, ":", self.__minute, ":", self.__second)

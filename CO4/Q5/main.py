@@ -23,6 +23,7 @@ class Python(Book):
         self.noOfPage = noOfPage
 
     def display(self):
+        print()
         print("Publisher :", self.publisherName)
         print("Title :", self.title)
         print("Author :", self.author)
@@ -30,5 +31,14 @@ class Python(Book):
         print("No. of pages :", self.noOfPage)
 
 
-obj = Python("Dvir Publishing House Ltd", "Sapiens", "Yuval Noah Harari", 1200, 443)
+publisher = input("Enter the publisher name:")
+title = input("Enter the title :")
+author = input("Enter the name of author :")
+price = int(input("Enter the price :"))
+page = int(input("Enter the No. of pages :"))
+
+obj = Python(publisher, title, author, price, page)
+
+# obj = Python("Dvir Publishing House Ltd", "Sapiens", "Yuval Noah Harari", 1200, 443)
+
 obj.display()
