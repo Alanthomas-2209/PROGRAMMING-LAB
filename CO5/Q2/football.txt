@@ -1,0 +1,10 @@
+1.Real Madrid
+2.FC Barcelona
+3.Manchester United
+4.Bayern Munich
+5.Liverpool
+6.Chelsea
+7.Manchester City
+8.Paris Saint Germain
+9.Juventus
+10.Arsenal
