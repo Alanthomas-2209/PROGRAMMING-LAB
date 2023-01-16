@@ -14,7 +14,7 @@ path = os.getcwd()
 # export_csv = df.to_csv (r'C:\Users\Admin\Desktop\CODE\Alan\PROGRAMMING-LAB\CO5\Q3\pandaresult.csv', index = None, header=True) # here you have to write path, where result file will be stored
 # print(df)
 
-with open(path+'\writeData.csv', mode='w') as file:
+with open(path + '\writeData.csv', mode='w') as file:
     writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
     # way to write to csv file
@@ -23,5 +23,5 @@ with open(path+'\writeData.csv', mode='w') as file:
     writer.writerow(['Java', 'James Gosling', '1995', '.java'])
     writer.writerow(['C++', 'Bjarne Stroustrup', '1985', '.cpp'])
 
-result = pandas.read_csv(path+'\writeData.csv')
+result = pandas.read_csv(path + '\writeData.csv')
 print(result)
