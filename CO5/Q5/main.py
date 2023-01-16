@@ -13,10 +13,12 @@ with open('data.csv', 'w', newline='') as csvfile:
     writer.writeheader()
     for i in range(len(data['name'])):
         writer.writerow({'name': data['name'][i], 'age': data['age'][i], 'city': data['city'][i]})
+    
+    
 
 # read the CSV file and display its contents
 with open('data.csv', 'r') as csvfile:
-    reader = csv.reader(csvfile)
+    reader = csv.DictReader(csvfile)
     for row in reader:
         print(row)
 

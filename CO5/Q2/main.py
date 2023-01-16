@@ -1,4 +1,4 @@
-file1 = open('football.txt', 'r')
+file1 = open('./football.txt', 'r')
 file2 = open('file2.txt', 'w')
 
 lines = file1.readlines()

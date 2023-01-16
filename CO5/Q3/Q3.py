@@ -4,19 +4,18 @@ import os
 
 path = os.getcwd()
 
-fieldnames = ['Programming language','Designed by','Appeared','Extension']
+fieldnames = ['Programming language', 'Designed by', 'Appeared', 'Extension']
 data = [
-    {'Programming language':'Python','Designed by':'Guido van Rossum', 'Appeared':'1991', 'Extension':'.py'},
-    {'Programming language':'Python','Designed by':'Guido van Rossum', 'Appeared':'1991', 'Extension':'.py'},
-    {'Programming language':'Python','Designed by':'Guido van Rossum', 'Appeared':'1991', 'Extension':'.py'}
-    
+    {'Programming language': 'Python', 'Designed by': 'Guido van Rossum', 'Appeared': '1991', 'Extension': '.py'},
+    {'Programming language': 'Java', 'Designed by': 'James Gosling', 'Appeared': '1995', 'Extension': '.java'},
+    {'Programming language': 'C++', 'Designed by': 'Bjarne Stroustrup', 'Appeared': '1985', 'Extension': '.cpp'}
+
 ]
 f = open("text.csv", 'w')
-fileWriter = csv.DictWriter(f,fieldnames= fieldnames,delimiter=",")
+fileWriter = csv.DictWriter(f, fieldnames=fieldnames, delimiter=",")
 fileWriter.writeheader()
 fileWriter.writerows(data)
 f.close()
-
 
 with open('text.csv') as file:
     fileReader = csv.reader(file)
@@ -27,7 +26,6 @@ with open('text.csv') as file:
 # fileReader = csv.DictReader(f)
 # for line in fileReader:
 #     print(line['Appeared'])
-
 
 
 # C = {'Programming language': ['Python','Java', 'C++'],
