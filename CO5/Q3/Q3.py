@@ -18,7 +18,8 @@ fileWriter.writerows(data)
 f.close()
 
 with open('text.csv') as file:
-    fileReader = csv.reader(file)
+    fileReader = csv.DictReader(file)
+    # fileReader = csv.reader(file)
     for line in fileReader:
         print(line)
 

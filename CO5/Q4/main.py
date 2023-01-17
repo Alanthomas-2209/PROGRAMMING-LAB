@@ -7,6 +7,7 @@ import pandas as pd
 # read the CSV file and print the contents of the selected columns
 with open('file.csv', 'r') as csvfile:
     reader = csv.reader(csvfile)
+    # reader = csv.DictReader(csvfile)
     for row in reader:
         # print([row[col] for col in columns])
         print(row[1])
