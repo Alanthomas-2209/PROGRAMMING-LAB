@@ -1,0 +1,4 @@
+{'index': '1', 'company': 'bmw', 'body-style': 'sedan', 'wheel-base': '2.6m', 'length': '3m', 'engine-type': '4000cc', 'num-of-cylinder': '8', 'horsepower': '640bhp', 'average-milage': '10kmpl', 'price': '2400000'}
+{'index': '3', 'company': 'Land rover', 'body-style': 'XUV', 'wheel-base': '2.6m', 'length': '3.1m', 'engine-type': '6000cc', 'num-of-cylinder': '6', 'horsepower': '640bhp', 'average-milage': '12kmpl', 'price': '3200000'}
+{'index': '4', 'company': 'bugati', 'body-style': 'sedan', 'wheel-base': '2.6m', 'length': '3.5m', 'engine-type': '9000cc', 'num-of-cylinder': '12', 'horsepower': '1040bhp', 'average-milage': '5kmpl', 'price': '6400000'}
+{'index': '5', 'company': 'maybach', 'body-style': 'sedan', 'wheel-base': '3.0m', 'length': '3.5m', 'engine-type': '8000cc', 'num-of-cylinder': '8', 'horsepower': '440bhp', 'average-milage': '8kmpl', 'price': '5500000'}

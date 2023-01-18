@@ -20,4 +20,6 @@ def merge(dict1, dict2):
     return dict1
 print("\nafter merging :")
 dict3=merge(dict1,dict2)
+# dict4={**dict1,**dict2}
+# print(dict4)
 print(dict3)

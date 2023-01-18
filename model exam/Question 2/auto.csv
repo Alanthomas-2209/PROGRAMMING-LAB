@@ -1,0 +1,6 @@
+index,company,body-style,wheel-base,length,engine-type,num-of-cylinder,horsepower,average-milage,price
+1,bmw,sedan,2.6m,3m,4000cc,8,640bhp,10kmpl,2400000
+2,benz,sedan,2.9m,3.2m,8000cc,6,540bhp,13kmpl,240000
+3,Land rover,XUV,2.6m,3.1m,6000cc,6,640bhp,12kmpl,3200000
+4,bugati,sedan,2.6m,3.5m,9000cc,12,1040bhp,5kmpl,6400000
+5,maybach,sedan,3.0m,3.5m,8000cc,8,440bhp,8kmpl,5500000

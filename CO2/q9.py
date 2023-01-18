@@ -6,7 +6,6 @@ for i in range(mid):
     print()
 
 for i in range(mid+1, 0, -1):
-    for j in range(0, i):
+    for j in range(i):
         print("* ", end=" ")
-
     print()
